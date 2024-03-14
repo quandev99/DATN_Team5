@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brand button.slick-next {
+  right: 20px;
+  z-index: 1;
+}
+
+.brand button.slick-prev {
+  left: -20px;
+  z-index: 1;
+}
+
+button.slick-next {
+  right: 50px;
+  z-index: 1;
+}
+button.slick-prev {
+  left: 10px;
+  z-index: 1;
+}
+
+button.slick-prev::before {
+  color: rgb(29, 28, 28);
+  content: "\276E";
+  background-color: rgb(233, 233, 233);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+button.slick-next::before {
+  color: black;
+  content: "\276F";
+  background-color: rgb(233, 233, 233);
+  width: 50px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container {
+  background-color: rgba(
+    192,
+    192,
+    192,
+    0.5
+  ); /* Màu xám bạc với độ trong suốt */
+  padding: 20px; /* Khoảng cách nội dung với viền của phần nền */
+  color: white; /* Màu chữ là trắng */
+}
+
+.about-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #333;
+}
+
+.about-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  color: #666;
+}
+
+.contact-info {
+  border-top: 1px solid #ccc;
+  padding-top: 16px;
+  margin-top: 16px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}

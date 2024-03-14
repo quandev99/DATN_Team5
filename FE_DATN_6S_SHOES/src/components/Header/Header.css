@@ -1,0 +1,239 @@
+/*=========================== search ========================================*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  }
+}
+.nav-search {
+  position: relative;
+}
+.nav-search .submenu-search {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -180px;
+  background-color: #f4f3f3;
+  padding: 5px;
+  width: 100%;
+  /* transition: opacity 4s, max-height 5s; */
+  opacity: 0;
+  max-height: 0;
+  min-width: 300px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  right: 5px;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: opacity 0.5s, max-height 0.5s;
+}
+
+/* .group:hover .submenu {
+    visibility: initial;
+} */
+.nav-search:hover .submenu-search {
+  transition-delay: 0s, 0.5s;
+  display: block;
+  opacity: 1;
+  max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  padding: 10px 20px;
+}
+
+/*================================ cart ==============================================*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  }
+}
+.cart-menu-item {
+  position: relative;
+}
+.cart-menu-item .cart-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f4f3f3;
+  padding: 5px;
+  left: -350px;
+  width: 100%;
+  transition: opacity 4s, max-height 5s;
+  opacity: 0;
+  max-height: 0;
+  min-width: 450px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  right: 5px;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: opacity 0.5s, max-height 0.5s;
+}
+
+/* .group:hover .submenu {
+    visibility: initial;
+} */
+.cart-menu-item:hover .cart-submenu {
+  transition-delay: 0s, 0.5s;
+  display: block;
+  opacity: 1;
+  max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  padding: 10px 20px;
+}
+
+/*================================ product ==============================================*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  }
+}
+.product-menu-item {
+  position: relative;
+}
+.product-menu-item .product-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f4f3f3;
+  padding: 5px;
+  width: 100%;
+  /* transition: opacity 4s, max-height 5s; */
+  opacity: 0;
+  min-width: 1200px;
+  max-width: 1200px;
+  left: -400px;
+  min-height: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 50;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: opacity 0.5s, max-height 0.5s;
+}
+
+/* .group:hover .submenu {
+    visibility: initial;
+} */
+.product-menu-item:hover .product-submenu {
+  transition-delay: 0s, 0.5s;
+  display: block;
+  opacity: 1;
+  max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  padding: 10px 20px;
+}
+
+/*======================= user =======================================*/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  }
+}
+.menu-item {
+  position: relative;
+}
+.menu-item .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -100px;
+  background-color: #f4f3f3;
+  padding: 5px;
+  width: 100%;
+  /* transition: opacity 4s, max-height 5s; */
+  opacity: 0;
+  max-height: 0;
+  min-width: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  right: 5px;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: opacity 0.5s, max-height 0.5s;
+}
+
+/* .group:hover .submenu {
+    visibility: initial;
+} */
+.menu-item:hover .submenu {
+  transition-delay: 0s, 0.5s;
+  display: block;
+  opacity: 1;
+  max-height: 500px; /* Giá trị tối đa cho chiều cao */
+  padding: 10px 20px;
+}
+
+/*product- sale */
+.product-sale-content {
+  display: inline-block;
+  animation: moveText 1s linear infinite alternate; /* Điều chỉnh thời gian và kiểu chuyển động ở đây */
+}
+/* 
+.category-menu-item {
+  position: relative;
+}
+.category-menu .category-submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: #f4f3f3;
+  padding: 5px;
+  width: 100%;
+  transition: opacity 4s, max-height 5s;
+  opacity: 0;
+  min-width: 200px;
+  width: 300px;
+  max-width: 1200px;
+  left: -100px;
+  min-height: 200px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 50;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  transition: opacity 0.5s, max-height 0.5s;
+} */
+
+/* CSS cho thanh menu */
+.menu-transition {
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+}
+
+.menu-transition.active {
+  transform: translateX(0);
+}
+
+.menu-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px; /* Khoảng width cố định cho menu */
+  background-color: #fff; /* Màu nền của menu */
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
+}
+
+.menu-bar.active {
+  transform: translateX(0);
+}

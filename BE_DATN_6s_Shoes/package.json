@@ -1,0 +1,42 @@
+{
+  "name": "be_book_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.40.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.10.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^7.5.1",
+    "mongoose-delete": "^1.0.1",
+    "mongoose-paginate-v2": "^1.7.31",
+    "mongoose-slug-generator": "^1.0.4",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.5",
+    "nodemon": "^3.0.2",
+    "paypal-rest-sdk": "^1.8.1",
+    "qs": "^6.11.2",
+    "request": "^2.88.2",
+    "slugify": "^1.6.6",
+    "vite": "^4.4.9",
+    "vite-plugin-node": "^3.0.2"
+  }
+}

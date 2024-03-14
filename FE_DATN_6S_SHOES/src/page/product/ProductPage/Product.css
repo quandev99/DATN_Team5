@@ -1,0 +1,16 @@
+/* CSS để tùy chỉnh thanh cuộn */
+/* Thiết lập màu sắc và chiều rộng của thanh cuộn */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Tùy chỉnh thanh cuộn */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Màu của thanh cuộn */
+  border-radius: 4px; /* Độ cong của viền */
+}
+
+/* Tùy chỉnh phần bên ngoài thanh cuộn */
+::-webkit-scrollbar-track {
+  background: transparent; /* Màu nền của phần bên ngoài thanh cuộn */
+}

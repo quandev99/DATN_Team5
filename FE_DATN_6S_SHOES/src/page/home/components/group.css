@@ -1,0 +1,35 @@
+.product-sale-content {
+  width: 300px; /* Kích thước của vùng hiển thị */
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.moveText {
+  display: inline-block;
+  animation: moveText 10s linear infinite;
+  position: absolute;
+  right: 100%; /* Bắt đầu từ bên phải */
+}
+
+@keyframes moveText {
+  0% {
+    transform: translateX(0); /* Không di chuyển ban đầu */
+  }
+  100% {
+    transform: translateX(-100%); /* Di chuyển hết width */
+  }
+}
+
+/* Ẩn nút chuyển slider mặc định */
+.swiper-button-next,
+.swiper-button-prev {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Hiển thị nút chuyển slider khi hover vào */
+.swiper-container:hover .swiper-button-next,
+.swiper-container:hover .swiper-button-prev {
+  opacity: 1;
+}

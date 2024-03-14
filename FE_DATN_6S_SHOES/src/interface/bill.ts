@@ -1,0 +1,20 @@
+export interface IBill {
+    _id?: string,
+    user_id: string,
+    coupon_id?: string,
+    payment_status?: string,
+    products?: [],
+    status?: string,
+    payment_method?: string,
+    bill_note?: string,
+    bill_totalPrice?: number,
+    bill_totalOrder?: number,
+    bill_shippingAddress?: string,
+    bill_phone?: string,
+    data: IBill[],
+    isLoading: IBill[],
+    isError: IBill[],
+    product_name?: string,
+    quantity?: number,
+
+}
